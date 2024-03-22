@@ -1,21 +1,6 @@
 class Fibonacci {
 	static int[] F = new int[10];
 	static int fibonacci(int n) {
-		// int a = 0, b = 1;
-	    // System.out.println(a + "\n" + b);
-		// for(int i = 0; i < n; i++) {
-		// 	int res = a + b;
-		// 	System.out.println(res);
-		// 	a = b;
-		// 	b = res;
-		// }
-
-		// if(n <= 1) {
-		// 	return n;
-		// } else {
-		// 	return fibonacci(n - 2) + fibonacci(n - 1);
-		// }
-
 		if (n <= 1) {
             F[n] = n;
             return n;
